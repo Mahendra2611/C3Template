@@ -1,0 +1,42 @@
+*{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#navbar{
+    width:80%;
+    margin:auto;
+    height:100px;
+    align-items:center;
+    justify-content:space-between;
+    display:flex;
+    background-color:blue;
+    color:white;
+}
+
+#form{
+    width:60%;
+    margin-top:200px;
+    display:grid;
+    place-items:center;
+    margin:auto;
+    background-color:blanchedalmond
+}
+#form>h1{
+    text-align:center;
+}
+
+#form>input{
+    /* gap:30px;
+     */
+     margin-top:20px;
+     width:70%;
+}
+#form>button{
+    width:30%;
+    margin-top:40px;
+}
